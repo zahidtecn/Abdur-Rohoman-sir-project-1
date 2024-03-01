@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header section start */
+
+header{
+    height: 60px;
+    background-color: black;
+    color: wheat;
+
+    display: flex;
+    justify-content: space-between;
+}
+header.logo{
+    height: 80%;
+    margin-top: 10px;
+}
+
+header.img{}
+
+header nav{
+    padding-top: 15px;
+}
+
+header nav ul{}
+
+header nav ul li{
+    display: inline-block;
+  
+
+}
+
+header nav ul li a{
+    /* background: red; */
+    padding: 5px 20px 15px;
+    font-size: 20px;
+    color: aliceblue;
+
+header nav ul li a.active {
+    color: limegreen;
+}
+
+header .auth {
+    
+}
+
+header .auth button {
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: aliceblue;
+    background: transparent ;
+}
+
+/* header section start */
